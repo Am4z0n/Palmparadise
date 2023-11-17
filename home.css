@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Roboto:wght@100&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(228, 238, 226, 0.95);
+    overflow-x: hidden;
+}
+
+
+header {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between ;
+    align-items: center;
+    top: 0;
+    width: 95%;
+    padding: 0px 40px;
+    background-color:rgb(65, 92, 77);
+    position: fixed;
+    z-index: 1000;
+    border-radius: 20px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+
+.nav a{
+    padding: 10px 23px;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: 'roboto';
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    
+    transform: scale(1.5);
+    transition: 0.5s;
+    background-color: rgba(205, 221, 201, 0.95);
+}
+
+.logo a {
+    cursor: pointer;
+}
+
+
+
+
+.btn button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(125, 133, 123, 0.95);
+}
+
+.btn button:hover {
+    background-color: rgba(8, 47, 2, 0.95);
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+.hero {
+    text-align: center;
+    margin-top: 85px;
+    font-size: 70px;
+    font-family: 'Caveat', cursive;;
+    color: rgba(8, 47, 2, 0.95);
+}
+
+
+.heroimg {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    left: 45%;
+}
+
+
+.hroimgsh {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+
+.abt {
+    margin-bottom: 20px;
+    margin-top: 500px;
+    height: 500px;
+    background-color: #013832;
+}
+
+
+.abt h2 span {
+    color: rgba(114, 184, 68, 1);
+    align-items: center;
+    width: 300px;
+    font-weight: bold;
+    word-spacing: 1px;
+    letter-spacing: -1px;
+    font-size: 40px;
+}
+
+
+.abt h2 {
+    color: white;
+    padding: 50px 30px;
+    margin-left: 200px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+
+.abt svg {
+    height: 1700px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.bottle1 {
+    display: flex;
+    position: absolute;
+    left: 800px;
+    top: 830px;
+    transition: 0.5s;
+}
+
+.bottle1:hover {
+    transform: scale(1.05);
+}
+
+
+
+.prdbtn {
+    margin-left: 43%;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(15, 85, 4, 0.95);
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: small;
+    box-shadow: 1px 1px 17px rgb(0, 0, 0);
+    color: rgb(197, 197, 197);
+}
+
+
+.prdbtn:hover {
+    background-color: white;
+    color: rgba(15, 85, 4, 0.95);
+    transition: 0.3s;
+}
+
+
+.vid {
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors {
+    background-color: rgba(197, 236, 193, 1);
+    width: 80%;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 200px;
+    
+}
+
+
+.sponsors h2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: rgba(8, 47, 2, 0.95);
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+.spns {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.ourceo {
+    margin-bottom: 150px;
+}
+
+
+.meet h2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgba(8, 47, 2, 0.95);
+    font-size: 35px;
+    font-weight: 400;
+}
+
+
+.rossbro {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.yap span {
+    color: rgba(8, 47, 2, 0.95);
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: -1.5px;
+    font-size: 40px;
+    text-shadow: -2px 9px 8px #00000083;
+    
+}
+
+
+.yap {
+    margin-right: 200px;
+    margin-top: 50px;
+    text-align: right;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'roboto';
+}
+
+
+.rossbro img {
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 30px 1px black;
+    transition: 0.5s;
+}
+
+.rossbro img:hover {
+    transform: scale(1.05);
+}
+
+.champ img {
+    position: absolute;
+    top: 2900px;
+    left: 900px;
+}
+
+
+.fact 
+
+
+.factpp {
+    font-family: 'roboto';
+}
+
+
+.smalltalk {
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.smalltalk span {
+    color: rgba(8, 47, 2, 0.95);
+    font-weight: bold;
+    letter-spacing: -3px;
+    font-size: 50px;
+}
+
+
+.groupfact {
+    font-family: 'Anonymous Pro', monospace;
+
+}
+
+
+#btn2 button{
+    position: absolute;
+    top: 3250px;
+    left: 85%;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(125, 133, 123, 0.95);
+}
+
+
+#btn2 button:hover {
+    background-color: rgba(8, 47, 2, 0.95);
+    color: white;
+    transition: 0.3s;
+}
+
+
+.groupfact {
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.fact1 {
+    list-style-position: inside;
+    background-color:rgba(197, 236, 193, 1);
+    padding: 50px 70px;
+    width: 320px;
+    height: 250px;
+    position: relative;
+    left: 40px;
+    top: 50px;
+    border-radius: 20px;
+    box-shadow: -2px 0px 50px #000;
+    z-index: -1;
+    color: rgba(8, 47, 2, 0.95);
+    font-weight: bold;
+}
+
+
+
+.fact1 li{
+    display: list-item;
+    padding: 0px 20px;
+    list-style-type: disc;
+}
+
+
+.fact1 img {
+    position: relative;
+    left: 140px;
+    
+}
+
+.fact2 {
+    background-color:rgba(213, 236, 210, 1);
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 100px;
+    font-size: xx-large;
+    box-shadow: -2px 0px 50px #000;
+    transition: 0.5s;
+}
+
+.fact2:hover {
+    transform: scale(1.05);
+}
+
+
+.fact3 {
+    list-style-position: inside;
+    background-color:rgba(197, 236, 193, 1);
+    padding: 50px 70px;
+    width: 320px;
+    height: 250px;
+    position: relative;
+    right: 40px;
+    top: 50px;
+    border-radius: 20px;
+    box-shadow: -2px 0px 50px #000;
+    z-index: -1;
+    color: rgba(8, 47, 2, 0.95);
+    font-weight: bold;
+}
+
+
+.fact3 li{
+    display: list-item;
+    padding: 0px 20px;
+    list-style-type: disc;
+}
+
+
+.fact3 img {
+    position: relative;
+    right: 75px;
+    top: -9px;
+    transform: scalex(-1);
+    
+}
+
+.wave {
+    height: 1100px;
+    position: absolute;
+    top: 3000px;
+    left: -500px;
+    z-index: -1;
+    z-index: -100;
+}
+
+.test {
+    margin-top: px;
+}
+
+.bckcolor {
+    background-color: #1f1f1f;
+    
+}
+
+.txxt {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.txxt h3 {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.txxt p {
+    color: white;
+    font-size: 20px;
+}
+
+
+.testall {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.testimony1 {
+    background-color: rgba(213, 236, 210, 1);
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.test1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+
+.imgtest1 img {
+    position: relative;
+    left: 170px;
+    bottom: 130px;
+}
+
+.test1 span {
+    position: relative;
+    left: 120px;
+    top: 20px;
+    font-weight: 600;
+}
+
+
+.testimony2 {
+    background-color: rgba(213, 236, 210, 1);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.test2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.imgtest2 img {
+    position: relative;
+    left: 170px;
+    bottom: 150px;
+}
+
+.test2 span {
+    position: relative;
+    left: 120px;
+    bottom: -1px;
+    font-weight: 600;
+}
+
+
+
+.empty {
+    margin-top: 300px;
+}
+
+
+footer {
+    background-color: rgba(56, 65, 54, 0.95);
+    width: 90%;
+    margin-top: 180px;
+    margin-left: 5%;
+    height: 350px;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+footer span {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.words {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding: 50px;
+    font-size: large;
+    line-height: 40px;
+}
+
