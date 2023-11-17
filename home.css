@@ -25,14 +25,8 @@ header {
     justify-content: space-between ;
     align-items: center;
     top: 0;
-    width: 95%;
+    width: 100%;
     padding: 0px 40px;
-    background-color:rgb(65, 92, 77);
-    position: fixed;
-    z-index: 1000;
-    border-radius: 20px;
-    height: 70px;
-    margin-left: 50px;
 }
 
 
@@ -82,7 +76,7 @@ header {
 
 .hero {
     text-align: center;
-    margin-top: 85px;
+    margin-top: 20px;
     font-size: 70px;
     font-family: 'Caveat', cursive;;
     color: rgba(8, 47, 2, 0.95);
@@ -164,7 +158,6 @@ header {
     cursor: pointer;
     font-weight: bold;
     font-size: small;
-    box-shadow: 1px 1px 17px rgb(0, 0, 0);
     color: rgb(197, 197, 197);
 }
 
